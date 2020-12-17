@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body .container {
+  font-family: "Montserrat", sans-serif;
+  color: #1d1663;
+  max-width: 50%;
+}
+
+img {
+  width: 100%;
+}
+
+body .container figure iframe {
+  width: 100%;
+  height: 500px;
+}
+
+body .container li {
+  font-size: 2em;
+  list-style-type: circle;
+  list-style-image: url("../img/Bulletpoints.png");
+}
+
+body .container .wp-block-columns {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+body .container .wp-block-column {
+  margin-left: 40px;
+}
+body .container .wp-image-76 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1900px) {
+  body .container .wp-block-columns {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  body .container {
+    max-width: 80%;
+  }
+}

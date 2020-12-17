@@ -1,0 +1,72 @@
+.history {
+  background-color: #808d33;
+  border-radius: 50% 50% 0 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.history_container .container iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.card-item {
+  min-height: 758px;
+}
+
+.card {
+  cursor: pointer;
+  height: 100%;
+  background-color: #bead5d;
+}
+
+.card__text {
+  height: 100%;
+  margin: 30px;
+}
+
+@media only screen and (max-width: 1900px) {
+  body .container .wp-block-columns {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  body .container {
+    max-width: 80%;
+  }
+  .history {
+    border-radius: 50% 50% 0 0;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  body .container .wp-block-columns {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  body .container {
+    max-width: 80%;
+  }
+  .history {
+    border-radius: 30% 30% 0 0;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

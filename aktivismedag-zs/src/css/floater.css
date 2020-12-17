@@ -1,0 +1,13 @@
+.floater1 {
+  width: 25%;
+  position: absolute;
+  left: 80px;
+  top: 600px;
+}
+
+.floater2 {
+  width: 20%;
+  position: absolute;
+  right: 80px;
+  top: 1000px;
+}
